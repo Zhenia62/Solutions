@@ -1,0 +1,7 @@
+E:\Solution_Telegin_Evgeniy\Task01\bin\Debug\Task01.exe.config
+E:\Solution_Telegin_Evgeniy\Task01\bin\Debug\Task01.exe
+E:\Solution_Telegin_Evgeniy\Task01\bin\Debug\Task01.pdb
+E:\Solution_Telegin_Evgeniy\Task01\obj\Debug\Task01.csprojAssemblyReference.cache
+E:\Solution_Telegin_Evgeniy\Task01\obj\Debug\Task01.csproj.CoreCompileInputs.cache
+E:\Solution_Telegin_Evgeniy\Task01\obj\Debug\Task01.exe
+E:\Solution_Telegin_Evgeniy\Task01\obj\Debug\Task01.pdb
