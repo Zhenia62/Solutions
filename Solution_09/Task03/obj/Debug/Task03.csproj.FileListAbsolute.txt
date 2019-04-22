@@ -1,0 +1,7 @@
+E:\Solution_telegin_08\Task03\bin\Debug\Task03.exe.config
+E:\Solution_telegin_08\Task03\bin\Debug\Task03.exe
+E:\Solution_telegin_08\Task03\bin\Debug\Task03.pdb
+E:\Solution_telegin_08\Task03\obj\Debug\Task03.exe
+E:\Solution_telegin_08\Task03\obj\Debug\Task03.pdb
+E:\Solution_telegin_08\Task03\obj\Debug\Task03.csprojAssemblyReference.cache
+E:\Solution_telegin_08\Task03\obj\Debug\Task03.csproj.CoreCompileInputs.cache

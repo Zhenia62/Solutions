@@ -1,0 +1,14 @@
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task02\bin\Debug\Task02.exe.config
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task02\bin\Debug\Task02.exe
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task02\bin\Debug\Task02.pdb
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.csprojAssemblyReference.cache
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.csproj.CoreCompileInputs.cache
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.exe
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.pdb
+E:\Solution10_Telegin_zhenia\Task02\bin\Debug\Task02.exe.config
+E:\Solution10_Telegin_zhenia\Task02\bin\Debug\Task02.exe
+E:\Solution10_Telegin_zhenia\Task02\bin\Debug\Task02.pdb
+E:\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.csprojAssemblyReference.cache
+E:\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.csproj.CoreCompileInputs.cache
+E:\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.exe
+E:\Solution10_Telegin_zhenia\Task02\obj\Debug\Task02.pdb

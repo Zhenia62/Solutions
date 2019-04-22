@@ -1,0 +1,6 @@
+C:\Users\teleg\source\repos\Solution13\User-defined exceptions\bin\Debug\User-defined exceptions.dll
+C:\Users\teleg\source\repos\Solution13\User-defined exceptions\bin\Debug\User-defined exceptions.pdb
+C:\Users\teleg\source\repos\Solution13\User-defined exceptions\obj\Debug\User-defined exceptions.csprojAssemblyReference.cache
+C:\Users\teleg\source\repos\Solution13\User-defined exceptions\obj\Debug\User-defined exceptions.csproj.CoreCompileInputs.cache
+C:\Users\teleg\source\repos\Solution13\User-defined exceptions\obj\Debug\User-defined exceptions.dll
+C:\Users\teleg\source\repos\Solution13\User-defined exceptions\obj\Debug\User-defined exceptions.pdb

@@ -45,7 +45,10 @@ namespace Task01
             date = Console.ReadLine();
             employee.DateOfEmployment = CheckDate(date);
 
-            emloy = new Employee(user.Name, user.Surname, user.DateofBirth, user.Age(user.DateofBirth), employee.Post, employee.Experience(employee.DateOfEmployment));
+            employee = new Employee(user.Name, user.Surname, user.DateofBirth, user.Age(user.DateofBirth), employee.Post, employee.Experience(employee.DateOfEmployment));
+            Employee emp = new Employee("Roma", user.Surname, user.DateofBirth, user.Age(user.DateofBirth), employee.Post, employee.Experience(employee.DateOfEmployment));
+
+            Console.WriteLine(employee.Equals(emp));
             Console.ReadKey();
         }
 

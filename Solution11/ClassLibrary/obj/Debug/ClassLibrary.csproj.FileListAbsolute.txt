@@ -1,0 +1,11 @@
+C:\Users\teleg\source\repos\Solution11_Telegin\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\teleg\source\repos\Solution11_Telegin\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\teleg\source\repos\Solution11_Telegin\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\teleg\source\repos\Solution11_Telegin\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\teleg\source\repos\Solution11_Telegin\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\teleg\source\repos\Solution11_Telegin\ClassLibrary\obj\Debug\ClassLibrary.pdb
+E:\Solution11_Telegin\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\Solution11_Telegin\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\Solution11_Telegin\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+E:\Solution11_Telegin\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\Solution11_Telegin\ClassLibrary\obj\Debug\ClassLibrary.pdb

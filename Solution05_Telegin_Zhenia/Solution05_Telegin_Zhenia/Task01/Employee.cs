@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task01
 {
-    class Employee : User
+    class Employee : User, IEquatable<Employee>
     {
         private string _post;
         private DateTime _dateofemployment;
@@ -53,6 +53,29 @@ namespace Task01
             Console.WriteLine($"Age: {age}");
             Console.WriteLine($"Post: {post}");
             Console.WriteLine($"Experience:{str}{experience}");
+        }
+
+
+        public bool Equals(Employee other)
+        {
+            if (other != null)
+            {
+                if (!(Name == other.Name && Surname == other.Surname))
+                {
+                    return false;
+                }
+            }else Console.WriteLine("Name and Surname can't be null");
+
+            return true;
+        }
+
+        public override bool Equals(Employee other)
+        {
+            if (other is Employee)
+            { 
+                return ((Employee)other).Name == this.Name;
+            }
+            return base.Equals(other);
         }
     }
 }

@@ -1,0 +1,7 @@
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task03\bin\Debug\Task03.exe.config
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task03\bin\Debug\Task03.exe
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task03\bin\Debug\Task03.pdb
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task03\obj\Debug\Task03.csproj.CoreCompileInputs.cache
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task03\obj\Debug\Task03.exe
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task03\obj\Debug\Task03.pdb
+C:\Users\teleg\source\repos\Solution10_Telegin_zhenia\Task03\obj\Debug\Task03.csprojAssemblyReference.cache
