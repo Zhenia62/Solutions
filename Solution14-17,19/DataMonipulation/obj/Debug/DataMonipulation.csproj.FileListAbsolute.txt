@@ -1,0 +1,7 @@
+E:\Epam\Solution14\DataMonipulation\obj\Debug\DataMonipulation.csprojAssemblyReference.cache
+E:\Epam\Solution14\DataMonipulation\obj\Debug\DataMonipulation.csproj.CoreCompileInputs.cache
+E:\Epam\Solution14\DataMonipulation\bin\Debug\DataMonipulation.dll.config
+E:\Epam\Solution14\DataMonipulation\bin\Debug\DataMonipulation.dll
+E:\Epam\Solution14\DataMonipulation\bin\Debug\DataMonipulation.pdb
+E:\Epam\Solution14\DataMonipulation\obj\Debug\DataMonipulation.dll
+E:\Epam\Solution14\DataMonipulation\obj\Debug\DataMonipulation.pdb

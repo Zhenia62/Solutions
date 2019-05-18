@@ -1,0 +1,6 @@
+E:\Epam\Solution14\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+E:\Epam\Solution14\Entities\bin\Debug\Task.exe.config
+E:\Epam\Solution14\Entities\bin\Debug\Task.exe
+E:\Epam\Solution14\Entities\bin\Debug\Task.pdb
+E:\Epam\Solution14\Entities\obj\Debug\Task.exe
+E:\Epam\Solution14\Entities\obj\Debug\Task.pdb

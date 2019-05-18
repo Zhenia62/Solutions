@@ -1,0 +1,13 @@
+E:\Epam\Solution14\StorageLists\obj\Debug\Rewarding.DAL.csprojAssemblyReference.cache
+E:\Epam\Solution14\StorageLists\obj\Debug\Rewarding.DAL.csproj.CoreCompileInputs.cache
+E:\Epam\Solution14\StorageLists\obj\Debug\Rewarding.DAL.Properties.Resources.resources
+E:\Epam\Solution14\StorageLists\obj\Debug\Rewarding.DAL.csproj.GenerateResource.cache
+E:\Epam\Solution14\StorageLists\bin\Debug\Rewarding.DAL.exe.config
+E:\Epam\Solution14\StorageLists\bin\Debug\Rewarding.DAL.exe
+E:\Epam\Solution14\StorageLists\bin\Debug\Rewarding.DAL.pdb
+E:\Epam\Solution14\StorageLists\bin\Debug\Task.exe
+E:\Epam\Solution14\StorageLists\bin\Debug\Task.pdb
+E:\Epam\Solution14\StorageLists\bin\Debug\Task.exe.config
+E:\Epam\Solution14\StorageLists\obj\Debug\Rewarding.DAL.csproj.CopyComplete
+E:\Epam\Solution14\StorageLists\obj\Debug\Rewarding.DAL.exe
+E:\Epam\Solution14\StorageLists\obj\Debug\Rewarding.DAL.pdb

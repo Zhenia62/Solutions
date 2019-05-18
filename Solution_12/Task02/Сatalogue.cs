@@ -133,6 +133,7 @@ namespace Task02
                                     text = File.ReadLines(PathHistory).ToString();
                                     output.WriteLine(text);
                                 }
+                                break;
                             }
                         }
                     }
@@ -240,10 +241,10 @@ namespace Task02
                             name: fileSystemEventArgs.Name,
                             oldName: "");
 
-            OnRestoration(fileSystemEventArgs.FullPath, fileSystemEventArgs.Name);
+            OnRestoration(fileSystemEventArgs.FullPath, fileSystemEventArgs.Name, DateTime.Now);
         }
 
-        private static void OnRestoration(string path, string name)
+        private static void OnRestoration(string path, string name, DateTime date)
         {
             FileStream fileStream = null;
 
@@ -256,6 +257,7 @@ namespace Task02
             {
 
                 output.WriteLine($"<{name}>");
+                output.WriteLine(date.ToString());
                 string[] strArray = File.ReadAllLines(path);
                 foreach (string line in strArray)
                 {

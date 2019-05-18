@@ -14,3 +14,6 @@ E:\Solution_12\Task02\obj\Debug\Task02.exe
 E:\Solution_12\Task02\obj\Debug\Task02.pdb
 E:\Solution_12\Task02\obj\Debug\Task02.Properties.Resources.resources
 E:\Solution_12\Task02\obj\Debug\Task02.csproj.GenerateResource.cache
+E:\Epam\Solutions\Solution_12\Task02\bin\Debug\Task02.exe.config
+E:\Epam\Solutions\Solution_12\Task02\obj\Debug\Task02.exe
+E:\Epam\Solutions\Solution_12\Task02\obj\Debug\Task02.pdb

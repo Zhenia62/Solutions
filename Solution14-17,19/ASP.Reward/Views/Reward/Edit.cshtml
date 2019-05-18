@@ -1,0 +1,30 @@
+﻿@using ASP.Reward.Models;
+
+@model AwardViewModel
+
+@{
+    ViewBag.Title = "Index";
+    var currentAward = Model;
+    if (currentAward == null)
+    {
+        currentAward = new AwardViewModel();
+    }
+}
+
+<h2>Edit</h2>
+
+<form action="Save" method="post">
+    <input name="Id" style="display: none;" value="@currentAward.Id" />
+    <div class="form-group">
+        <label for="Title">Title</label>
+        <input name="Title" type="text" class="form-control" id="firstName" value="@currentAward.Title" />
+    </div>
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <input name="Description" type="text" class="form-control" id="lastName" value="@currentAward.Description" />
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">Save</button>
+        @Html.ActionLink("Cancel", "Index", "User", new { }, new { @class = "btn btn-warning" })
+    </div>
+</form>

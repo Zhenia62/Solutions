@@ -1,0 +1,14 @@
+E:\Epam\Solution14\DataMonipulation\obj\Debug\RewardingBLL.csproj.CoreCompileInputs.cache
+E:\Epam\Solution14\DataMonipulation\bin\Debug\RewardingBLL.dll.config
+E:\Epam\Solution14\DataMonipulation\bin\Debug\RewardingBLL.dll
+E:\Epam\Solution14\DataMonipulation\bin\Debug\RewardingBLL.pdb
+E:\Epam\Solution14\DataMonipulation\bin\Debug\Rewarding.DAL.exe
+E:\Epam\Solution14\DataMonipulation\bin\Debug\Task.exe
+E:\Epam\Solution14\DataMonipulation\bin\Debug\Task.pdb
+E:\Epam\Solution14\DataMonipulation\bin\Debug\Task.exe.config
+E:\Epam\Solution14\DataMonipulation\bin\Debug\Rewarding.DAL.pdb
+E:\Epam\Solution14\DataMonipulation\bin\Debug\Rewarding.DAL.exe.config
+E:\Epam\Solution14\DataMonipulation\obj\Debug\RewardingBLL.csprojAssemblyReference.cache
+E:\Epam\Solution14\DataMonipulation\obj\Debug\RewardingBLL.csproj.CopyComplete
+E:\Epam\Solution14\DataMonipulation\obj\Debug\RewardingBLL.dll
+E:\Epam\Solution14\DataMonipulation\obj\Debug\RewardingBLL.pdb

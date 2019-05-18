@@ -1,0 +1,54 @@
+﻿<Window x:Name="WindowUser" x:Class="Task.Windows.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task.Windows"
+        mc:Ignorable="d"
+        Title="UserWindow" Height="450" Width="800" Background="#FF11A9DD">
+    <Grid x:Name="gUsers">
+        <Label x:Name="lState"  Content=""  Margin="86,22,105,0" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.525,0.595"/>
+        <TextBox x:Name="tbName" MaxLength="50" HorizontalAlignment="Left" Height="23" Margin="340,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141">
+            <TextBox.Text>
+                <Binding Path="Name">
+                    <Binding.ValidationRules>
+                        <DataErrorValidationRule/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <TextBox x:Name="tbBirthDate"  HorizontalAlignment="Left" Height="23" Margin="340,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141">
+            <TextBox.Text>
+                <Binding Path="Name">
+                    <Binding.ValidationRules>
+                        <DataErrorValidationRule/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <TextBox x:Name="tbSecondName" MaxLength="50" HorizontalAlignment="Left" Height="23" Margin="340,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141">
+            <TextBox.Text>
+                <Binding Path="Name">
+                    <Binding.ValidationRules>
+                        <DataErrorValidationRule/>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+        </TextBox>
+        <Label x:Name="lName" Content="Имя" HorizontalAlignment="Left" Margin="209,104,0,0" VerticalAlignment="Top" Background="#00000000" FontSize="14" Foreground="White"/>
+        <Label x:Name="lSecondName" Content="Фамилия" HorizontalAlignment="Left" Margin="209,145,0,0" VerticalAlignment="Top" Background="#00000000" FontSize="14" Foreground="White"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="4" Margin="220,237,0,0" VerticalAlignment="Top" Width="0"/>
+        <Label x:Name="lBirthDate" Content="Дата рождения" HorizontalAlignment="Left" Margin="209,196,0,0" VerticalAlignment="Top" Background="#00000000" FontSize="14" Foreground="White"/>
+        <Button x:Name="bAction" Content="Button" Margin="667,346,36,35" RenderTransformOrigin="1.591,4.81"/>
+        <Expander x:Name="eMainWindowRewards"  HorizontalAlignment="Left" Height="144" Margin="507,109,0,0" VerticalAlignment="Top" Width="180">
+            <Expander.Header>
+                <Button x:Name="bWindowRewards" Background="{x:Null}" Foreground="White" FontSize="14">Награды</Button>
+            </Expander.Header>
+            <Grid x:Name="gWindowRewards" Background="#FFE5E5E5">
+                <StackPanel x:Name="spWindowRewards">
+                    <TextBlock x:Name="tmWindowRewardsTitle">Выберите награду</TextBlock>
+                </StackPanel>
+            </Grid>
+        </Expander>
+    </Grid>
+</Window>

@@ -8,6 +8,7 @@ namespace Task02
 {
     //public delegate void Message(string name);
     //public delegate void OfficeEventHandler(object sender, OfficeEventArgs args);
+
     delegate void EmployeeEventHandler(object sender, EmployeeEventArgs args);
 
     class Person
@@ -51,14 +52,14 @@ namespace Task02
 
         public string Greet(Person person)
         {
-            int hourIn = person.TimeIn.Hour;
+            int hour = person.TimeIn.Hour;
             string greeting = "Доброе утро";
 
-            if (hourIn >= 12 && hourIn < 17)
+            if (hour >= 12 && hour < 17)
             {
                 greeting = "Добрый день";
             }
-            else if (hourIn >= 17 || hourIn < 6)
+            else if (hour >= 17 || hour < 6)
             {
                 greeting = "Добрый вечер";
             }
@@ -66,7 +67,7 @@ namespace Task02
             return $"{Name}: \"{greeting}, {person.Name}!\"";
         }
 
-        public string SayGoodbye(Person person)
+        public string SayBye(Person person)
         {
             return $"{Name}: \"Пока, {person.Name}!\"";
         }

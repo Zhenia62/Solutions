@@ -9,6 +9,7 @@ namespace Task02
     class Program
     {
         static List<Person> employeesList;
+
         static void Main(string[] args)
         {
             employeesList = new List<Person>()
@@ -92,7 +93,7 @@ namespace Task02
 
             foreach (var item in list)
             {
-                Console.WriteLine(item.SayGoodbye(args.Person));
+                Console.WriteLine(item.SayBye(args.Person));
             }
         }
     }

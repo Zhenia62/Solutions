@@ -12,3 +12,6 @@ E:\Solution11_Telegin\Task02\obj\Debug\Task02.exe
 E:\Solution11_Telegin\Task02\obj\Debug\Task02.pdb
 E:\Solution11_Telegin\Task02\obj\Debug\Task02.csprojAssemblyReference.cache
 E:\Solution11_Telegin\Task02\obj\Debug\Task02.csproj.CoreCompileInputs.cache
+E:\Epam\Solutions\Solution11\Task02\bin\Debug\Task02.exe.config
+E:\Epam\Solutions\Solution11\Task02\obj\Debug\Task02.exe
+E:\Epam\Solutions\Solution11\Task02\obj\Debug\Task02.pdb

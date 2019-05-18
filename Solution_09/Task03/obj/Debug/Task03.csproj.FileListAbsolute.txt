@@ -5,3 +5,6 @@ E:\Solution_telegin_08\Task03\obj\Debug\Task03.exe
 E:\Solution_telegin_08\Task03\obj\Debug\Task03.pdb
 E:\Solution_telegin_08\Task03\obj\Debug\Task03.csprojAssemblyReference.cache
 E:\Solution_telegin_08\Task03\obj\Debug\Task03.csproj.CoreCompileInputs.cache
+E:\Epam\Solutions\Solution_09\Task03\bin\Debug\Task03.exe.config
+E:\Epam\Solutions\Solution_09\Task03\obj\Debug\Task03.exe
+E:\Epam\Solutions\Solution_09\Task03\obj\Debug\Task03.pdb
