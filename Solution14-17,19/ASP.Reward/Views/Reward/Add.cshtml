@@ -1,7 +1,44 @@
-﻿
+﻿@using ASP.Reward.Models;
+
+@model AwardViewModel
+
 @{
     ViewBag.Title = "Add";
+    var currentAward = Model;
+    if (currentAward == null)
+    {
+        currentAward = new AwardViewModel();
+    }
 }
 
-<h2>Add</h2>
+<h2>Добавить новго пользователя</h2>
 
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div>
+        <h4>Регистрация пользователя</h4>
+        <hr />
+        @Html.ValidationSummary(false)
+
+        <div>
+            <h4>Название</h4>
+            <div>
+                @Html.EditorFor(model => model.Title)
+            </div>
+        </div>
+
+        <div>
+            <h4>Описание</h4>
+            <div>
+                @Html.EditorFor(model => model.Description)
+            </div>
+        </div>
+        <div>
+            <div>
+                <input type="submit" value="Добавить" />
+            </div>
+        </div>
+    </div>
+}

@@ -14,7 +14,10 @@ namespace ASP.Reward.Models
 
         public bool Checked { get; set; }
 
+        public List<AwardViewModel> AvailableRewards { get; set; }
+
         public static AwardViewModel GetViewModel(Award reward, List<Award> userRewards)
+
         {
             var model = new AwardViewModel();
             model.Id = reward.Id;
@@ -23,5 +26,6 @@ namespace ASP.Reward.Models
             model.Checked = userRewards.Any(r => r.Id == reward.Id);
             return model;
         }
+
     }
 }

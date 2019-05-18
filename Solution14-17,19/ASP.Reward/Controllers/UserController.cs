@@ -60,12 +60,10 @@ namespace ASP.Reward.Controllers
             {
                 if (userModel.Id == default(int))
                 {
-                    // add
                     users.Add(userModel.ToUser());
                 }
                 else
                 {
-                    // update
                     var currentUser = users.FirstOrDefault(u => u.Id == userModel.Id);
                     if (currentUser != null)
                     {
