@@ -16,22 +16,28 @@ namespace ASP.Reward.Controllers
             return View(awards);
         }
 
-        //private static List<User> users = new List<User>();
 
-        public ActionResult Edit(int awarsId)
+        public ActionResult Edit(int awardId)
         {
-            var currentAward = awards.FirstOrDefault(u => u.Id == awarsId);
+            var currentAward = awards.FirstOrDefault(u => u.Id == awardId);
             return View(AwardViewModel.GetViewModel(currentAward, awards));
         }
 
-        public ActionResult Add()
+        public ActionResult Add(AwardViewModel awardModel)
         {
+            if (awardModel != null)
+            {
+                if (awardModel.Id == default(int))
+                {
+                    awards.Add(awardModel.ToAward());
+                }
+            }
             return View("Edit", null);
         }
 
-        public ActionResult Delete(int userId)
+        public ActionResult Delete(int awardId)
         {
-            var currentUser = awards.FirstOrDefault(u => u.Id == userId);
+            var currentUser = awards.FirstOrDefault(a => a.Id == awardId);
             if (currentUser != null)
             {
                awards.Remove(currentUser);
@@ -40,29 +46,29 @@ namespace ASP.Reward.Controllers
             return RedirectToAction("Index");
         }
 
-        //public ActionResult Save(AwardViewModel awardModel)
-        //{
-        //    if (awardModel != null)
-        //    {
-        //        if (awardModel.Id == default(int))
-        //        {
-        //            // add
-        //            awards.Add(awardModel.ToAward);
-        //        }
-        //        else
-        //        {
-        //            // update
-        //            var currentUser = awards.FirstOrDefault(u => u.Id == awardModel.Id);
-        //            if (currentUser != null)
-        //            {
-        //                var award = awardModel.ToUser();
-        //                currentUser.Title = award.Title;
-        //                currentUser.Description= award.Description;
-        //            }
-        //        }
-        //    }
+        public ActionResult Save(AwardViewModel awardModel)
+        {
+            if (awardModel != null)
+            {
+                if (awardModel.Id == default(int))
+                {
+                    // add
+                    awards.Add(awardModel.ToAward());
+                }
+                else
+                {
+                    // update
+                    var currentUser = awards.FirstOrDefault(u => u.Id == awardModel.Id);
+                    if (currentUser != null)
+                    {
+                        var award = awardModel.ToAward();
+                        currentUser.Title = award.Title;
+                        currentUser.Description = award.Description;
+                    }
+                }
+            }
 
-        //    return RedirectToAction("Index");
-        //}
+            return RedirectToAction("Index");
+        }
     }
 }

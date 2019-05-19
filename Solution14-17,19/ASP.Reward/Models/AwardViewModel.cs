@@ -26,6 +26,15 @@ namespace ASP.Reward.Models
             model.Checked = userRewards.Any(r => r.Id == reward.Id);
             return model;
         }
+        public Award ToAward()
+        {
+            return new Award
+            {
+                Id = Id,
+                Title = Title,
+                Description = Description
+            };
+        }
 
     }
 }

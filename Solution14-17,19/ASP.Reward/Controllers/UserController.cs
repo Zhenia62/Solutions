@@ -38,8 +38,15 @@ namespace ASP.Reward.Controllers
             return View(UserViewModel.GetViewModel(currentUser, rewards));
         }
 
-        public ActionResult Add()
+        public ActionResult Add(UserViewModel userModel)
         {
+            if (userModel != null)
+            {
+                if (userModel.Id == default(int))
+                {
+                    users.Add(userModel.ToUser());
+                }
+            }
             return View("Edit", null);
         }
 
